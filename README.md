@@ -10,6 +10,8 @@ A simple project made with express(node.js),ejs and bootstrap. It implements CRU
 * start server with npm start or nodemon
 * open localhost:3000
 
+![alt text](projekt_slike/slasticarna1.jpg)
+
 Dependencies: 
 
     "body-parser": "^1.19.0",
