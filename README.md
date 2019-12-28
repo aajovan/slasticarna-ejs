@@ -10,7 +10,9 @@ A simple project made with express(node.js),ejs and bootstrap. It implements CRU
 * start server with npm start or nodemon
 * open localhost:3000
 
-![alt text](projekt_slike/slasticarna1.jpg)
+![Slika 1](projekt_slike/slasticarna1.jpg)
+![Slika 1](projekt_slike/slasticarna2.jpg)
+![Slika 1](projekt_slike/slasticarna3.jpg)
 
 Dependencies: 
 
