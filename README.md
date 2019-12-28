@@ -3,12 +3,12 @@
 
 A simple project made with express(node.js),ejs and bootstrap. It implements CRUD, so user can simply add, delete and update entries if logged in. Created with no SQL databse - mongodb.
 
-How to run?
+## How to run?
 
-simply npm install
-run mongodb (project will automatically create database if one does not exist)
-start server with npm start or nodemon
-open localhost:3000
+* simply npm install
+* run mongodb (project will automatically create database if one does not exist)
+* start server with npm start or nodemon
+* open localhost:3000
 
 Dependencies: 
 
