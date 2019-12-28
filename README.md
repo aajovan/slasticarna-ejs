@@ -1,7 +1,7 @@
 
 # Slasticarna 
 
-A simple project made with express(node.js),ejs and bootstrap. It implements CRUD, so user can simply add, delete and update entries if logged in. Created with no SQL databse - mongodb.
+A simple project made with express(node.js),ejs and bootstrap. It implements CRUD, so user can simply add, delete and update entries if logged in. Created with no SQL database - mongodb.
 
 ## How to run?
 
