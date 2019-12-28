@@ -1,0 +1,40 @@
+<% include ../partials/header %>
+<div class=" ponuda ponuda-kolaci">
+    <div class="container pt-3">
+            <% if(trenutniKorisnik) { %>  
+        <div class="bg-light rounded p-2 mb-2 text-center">
+            <a class="btn btn-primary" href="/kolaci/novo">Dodaj novi kolač</a>
+        </div>
+        <% }%>
+        <div class="bg-light rounded p-3">
+            <h2 class="text-brown text-center">Ponuda kolača</h2>
+            <div class="row">
+                <% kolaci.forEach(function(kolac) { %>
+                    <div class="col-sm-6 col-lg-4 col-xl-3 d-flex my-3">
+                        <div class="rounded border mb-2 text-center w-100 d-flex flex-column">
+                            <div>
+                                <img class="img-fluid w-100 slika-ponuda" src="<%= kolac.slika %>" alt="">
+                                <h5 class="pt-2"><%= kolac.naziv %></h5>
+                            </div>
+                            <div class="mt-auto">
+                                <h6><%= kolac.cijena %> KN</h6>  
+                                <div class="d-lg-flex justify-content-between px-2"> 
+                                    <a class="btn btn-primary d-block my-1" href="/kolaci/<%= kolac._id %>">Detalji</a>
+                                    <% if(trenutniKorisnik) { %>  
+                                    <a class="btn btn-warning d-block my-1" href="/kolaci/<%= kolac._id %>/uredi?_method=PUT">Uredi</a>
+                                    <form action="/kolaci/<%= kolac._id %>?_method=DELETE" method="POST">
+                                        <button class="btn btn-danger d-block w-100 my-1">Izbriši</button>
+                                    </form>
+                                    <% }%>
+                                </div>   
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <% }) %>
+            </div>
+        </div>   
+    </div>
+    <% include ../partials/footer %>
+    
+    

@@ -1,0 +1,17 @@
+<% include partials/header %>
+<div class="container mt-3 py-3 border rounded">
+        <h1 class="text-brown text-center">Registracija</h1>
+        <form action="/registracija" method="POST">
+            <div class="form-group">
+                <label for="username">Korisničko ime</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Unesite korisničko ime" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Lozinka</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Unesite lozinku" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Unesi</button>
+        </form>
+    </div>
+    
+<% include partials/footer %>

@@ -1,0 +1,29 @@
+<% include ../partials/header %>
+<div class="container">
+    <h2 class="text-center pb-3 text-brown">Unos nove torte</h2>
+    <div class="border bg-light rounded p-3">
+                    <form action="/torte" method="POST">
+                                    <div class="form-group">
+                                      <label for="naziv">Naziv torte</label>
+                                      <input type="text" class="form-control" id="naziv" name="torta[naziv]" placeholder="Unesite naziv" required>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="slika">Slika</label>
+                                      <input type="text" class="form-control" id="slika" name="torta[slika]" placeholder="Unesite URL slike" required>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="cijena">Cijena</label>
+                                      <input type="number" class="form-control" id="cijena" name="torta[cijena]" placeholder="Unesite cijenu" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="opis">Opis</label>
+                                        <div>
+                                            <textarea class="w-100 rounded" name="torta[opis]" rows="10" id="opis"></textarea>
+                                        </div>
+                                      </div>
+                                    <button type="submit" class="btn btn-primary">Unesi</button>
+                                  </form>
+        </div>
+</div>
+
+<% include ../partials/footer %>

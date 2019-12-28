@@ -1,0 +1,69 @@
+.glavni {
+    display:flex;
+flex-direction:column;
+height: 100vh;
+}
+.marka {
+    width: 140px;
+}
+.slika {
+    height: 70px;
+}
+.carousel-item img {
+    height: 40vh;
+    object-fit: cover;
+}
+.ponuda-torte {
+    background-image: url("/img/torta_bg.jpg");
+}
+.ponuda-kolaci {
+    background-image: url("/img/kolaci_bg.jpg");
+}
+.ponuda {
+    flex: 1;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #594a4e;
+}
+.navbar-light .navbar-brand {
+    color: #594a4e;
+}
+.logo {
+    height: 65px;
+}
+.nav-border {
+    border-bottom: 2px solid #594a4e;
+}
+.footer-border {
+    border-top: 1px solid rgba(89, 74, 78, 0.3);
+    margin-bottom: 0;
+}
+.brown {
+background-color: #594a4e;
+}
+.text-brown {
+    color: #594a4e;
+    }
+.btn-primary {
+    background-color: #594a4e;
+    border-color: #594a4e;
+}
+.btn-primary:hover {
+    background-color: #42393c;
+    border-color: #594a4e;
+    
+}
+.navbar-brand {
+    padding-right: 1rem;
+}
+.slika-ponuda {
+    height: 250px;
+    object-fit: cover;
+}
+.slider-text {
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+}
+
