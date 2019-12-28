@@ -11,8 +11,9 @@ A simple project made with express(node.js),ejs and bootstrap. It implements CRU
 * open localhost:3000
 
 ![Slika 1](projekt_slike/slasticarna1.jpg)
-![Slika 1](projekt_slike/slasticarna2.jpg)
-![Slika 1](projekt_slike/slasticarna3.jpg)
+![Slika 2](projekt_slike/slasticarna2.jpg)
+![Slika 3](projekt_slike/slasticarna3.jpg)
+![Slika 4](projekt_slike/slasticarna4.jpg)
 
 Dependencies: 
 
