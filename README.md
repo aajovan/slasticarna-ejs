@@ -1,4 +1,3 @@
-
 <div align="center">
 <h1>Slastičarna</h1>
  <img src="public/img/logo.png"/>
